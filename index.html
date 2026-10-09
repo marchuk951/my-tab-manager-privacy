@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for My Tab Manager PRO — a Google Chrome extension that works 100% locally and collects no personal data.">
+  <title>Privacy Policy — My Tab Manager PRO</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f6f7f9;
+      --text: #1a1d21;
+      --muted: #5b6470;
+      --accent: #1a73e8;
+      --border: #e4e7eb;
+      --code-bg: #eef1f4;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121417;
+        --surface: #1a1d21;
+        --text: #e8eaed;
+        --muted: #9aa3ad;
+        --accent: #8ab4f8;
+        --border: #2c3138;
+        --code-bg: #23272d;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 32px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 650;
+      margin: 48px 0 14px;
+      letter-spacing: -0.01em;
+    }
+
+    p { margin-bottom: 14px; }
+
+    ul {
+      margin: 0 0 16px 22px;
+    }
+
+    li { margin-bottom: 8px; }
+
+    code {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.875em;
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 1px 6px;
+    }
+
+    .highlight {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin: 20px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 40px 18px 64px; }
+      h1 { font-size: 1.6rem; }
+      h2 { font-size: 1.15rem; margin-top: 36px; }
+      body { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>My Tab Manager PRO</strong> — Google Chrome Extension</p>
+      <p class="meta">Last updated: July 21, 2026</p>
+      <span class="badge">100% local · No data collection · No tracking</span>
+    </header>
+
+    <section>
+      <h2>1. Introduction</h2>
+      <p>
+        This Privacy Policy describes how <strong>My Tab Manager PRO</strong> ("the Extension", "we", "our")
+        handles information when you use it in the Google Chrome browser. The Extension is a tab management
+        tool that helps you organize, group, suspend, and restore browser tabs and sessions.
+      </p>
+      <div class="highlight">
+        <p>
+          <strong>The short version:</strong> My Tab Manager PRO works entirely on your device. It does not
+          collect, process, transmit, store on external servers, share, or sell any personal data. We have
+          no servers, no accounts, and no analytics of any kind.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Data We Collect (None)</h2>
+      <p>
+        The Extension does <strong>not</strong> collect any personal or non-personal information, including but
+        not limited to:
+      </p>
+      <ul>
+        <li>Names, email addresses, or any other personally identifiable information;</li>
+        <li>Browsing history, page content, or website activity beyond what is technically required to manage your tabs locally (see Section 3);</li>
+        <li>Authentication information, passwords, or financial and payment information;</li>
+        <li>Location data, IP addresses, device identifiers, or usage statistics;</li>
+        <li>Health information or any other sensitive category of data.</li>
+      </ul>
+      <p>
+        Because nothing is collected, nothing is ever transmitted to us or to any third party, and nothing
+        is sold, rented, or shared for any purpose, including advertising or profiling.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. How We Use Permissions</h2>
+      <p>
+        The Extension requests the minimum set of Chrome permissions required for its functionality.
+        All permission-related operations are performed locally in your browser and are never used to
+        gather or transmit data:
+      </p>
+      <ul>
+        <li>
+          <code>tabs</code> and <code>tabGroups</code> — required to read the URLs and titles of your open tabs
+          so the Extension can list, close, group, and suspend (freeze) them to free up memory (RAM).
+          This information is processed in memory on your device only.
+        </li>
+        <li>
+          <code>storage</code> — required to save your sessions (lists of URLs) and interface preferences
+          (language, theme color) locally using <code>chrome.storage.local</code>.
+        </li>
+        <li>
+          <code>contextMenus</code> — required to add quick tab-management actions to the browser's
+          right-click context menu.
+        </li>
+      </ul>
+      <p>
+        These permissions are used solely to provide the single, user-facing purpose of the Extension —
+        managing your tabs — in accordance with the
+        <a href="https://developer.chrome.com/docs/webstore/program-policies" target="_blank" rel="noopener">Chrome Web Store Program Policies</a>
+        and its User Data / Limited Use requirements.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Data Storage</h2>
+      <p>
+        All data the Extension works with is stored exclusively in your browser's local storage via
+        <code>chrome.storage.local</code>. This includes:
+      </p>
+      <ul>
+        <li>Saved sessions (lists of tab URLs you choose to save);</li>
+        <li>Interface settings, such as your preferred language and theme color.</li>
+      </ul>
+      <p>
+        This data never leaves your device, is not synchronized to any external server, and is fully
+        under your control. You can delete it at any time by removing saved sessions within the Extension
+        or by uninstalling the Extension, which permanently erases all of its locally stored data.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Third-Party Services (None)</h2>
+      <p>
+        The Extension does not integrate, embed, or communicate with any third-party services. Specifically,
+        it does <strong>not</strong> use:
+      </p>
+      <ul>
+        <li>Google Analytics or any other analytics or telemetry tools;</li>
+        <li>Advertising networks, ad modules, or tracking pixels;</li>
+        <li>Crash-reporting services or remote logging;</li>
+        <li>External APIs, CDNs, or remote code of any kind.</li>
+      </ul>
+      <p>
+        The Extension makes no network requests to external servers during normal operation.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Children's Privacy</h2>
+      <p>
+        The Extension is not directed at children under the age of 13, and — because it collects no data
+        whatsoever — it does not knowingly collect any information from children or any other users.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time, for example to reflect changes in the
+        Extension's functionality or in legal requirements. Any changes will be posted on this page with
+        an updated "Last updated" date. We encourage you to review this page periodically. Continued use
+        of the Extension after changes are published constitutes acceptance of the updated policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Contact Us</h2>
+      <p>
+        If you have any questions or concerns about this Privacy Policy or the Extension's data practices,
+        please contact us at:
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:[marchuk951@gmail.com]">[marchuk951@gmail.com
+]</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>My Tab Manager PRO — Privacy Policy. All processing happens locally on your device.</p>
+    </footer>
+  </main>
+</body>
+</html>
